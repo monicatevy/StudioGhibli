@@ -26,9 +26,9 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 2rem;
   font-family: "Inter", sans-serif;
   line-height: 1;
   background: var(--background);
@@ -53,13 +53,13 @@ body {
   margin: 0rem -2rem -2rem -2rem;
   padding: 1rem 3.5rem 1rem 0;
   font-family: 'Roboto Mono';
-  font-size: smaller;
   background: var(--footer);
 }
 
 #footer a {
   text-decoration: none;
   color: var(--gray-200);
+  font-size: smaller;
 }
 
 #footer a:hover {
@@ -74,12 +74,6 @@ i {
 
 i:hover {
   color: var(--gray-200);
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #eee;
-  margin-bottom: 1rem;
 }
 
 .container-card {
@@ -245,13 +239,9 @@ hr {
   border: 1px solid var(--gray-300);
 }
 
-@media screen and (min-width: 700px) {
-  body {
-    padding: 0.5rem;
-  }
+@media screen and (min-width: 600px) {
   .card {
     flex: 1 1 calc(50% - 2rem);
-    margin: 1rem 0.5rem;
   }
 }
 

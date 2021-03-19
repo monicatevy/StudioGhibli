@@ -142,7 +142,6 @@ request.onload = function () {
     app.appendChild(h3);
   }
 }
-const hr = document.createElement('hr');
 
 const footer_text_ahref = document.createElement('a');
 footer_text_ahref.setAttribute('target', '_blank');
@@ -159,7 +158,6 @@ const footer_github_icon = document.createElement('i');
 footer_github_icon.setAttribute('class', 'fab fa-github');
 
 app.appendChild(footer);
-footer.appendChild(hr);
 
 footer.appendChild(footer_text_ahref);
 footer_text_ahref.appendChild(footer_text);
